@@ -16,7 +16,32 @@ We present a novel camera path optimization framework for the task of online vid
 
 ## MotionStab Dataset
 
-The `MotionStab` dataset and the synthesized stable/unstable demo videos can be download from [Google Drive](https://drive.google.com/drive/folders/1zKK6Ffp8TKbMptx4kyCuHNPr3JBQND5R?usp=drive_link).
+The `MotionStab` dataset and the synthesized stable/unstable videos can be download from [Google Drive](https://drive.google.com/drive/folders/1zKK6Ffp8TKbMptx4kyCuHNPr3JBQND5R?usp=drive_link). The dataset is organized as follow:
+
+```
+MotionStab
+|--Regular
+|  |--0-fi.npy
+|  |--0-bi.npy
+|  |--0-unstab.mp4
+|  |--0-stab.mp4
+|  |--...
+|--QuickRotation
+|  |--0-fi.npy
+|  |--0-bi.npy
+|  |--0-unstab.mp4
+|  |--0-stab.mp4
+|  |--...
+|--Crowd
+|  |--0-fi.npy
+|  |--0-bi.npy
+|  |--0-unstab.mp4
+|  |--0-stab.mp4
+|  |--...
+...
+```
+
+For each synthesized video, `xx-fi.npy`, `xx-bi.npy`, `xx-stab.mp4`, `xx-unstab.mp4` are inter-frame motions, ground truth warp fields, the unstable video, and the stable video, respectively.
 
 ## Usage
 

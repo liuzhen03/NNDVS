@@ -20,7 +20,7 @@ parser = argparse.ArgumentParser()
 
 parser.add_argument('--dataset', default='NUS_dataset', help="dataset name")
 parser.add_argument('--dataset_dir', default='./data/', help="root dir of the dataset")
-parser.add_argument('--video_dir', default='Regular/original/videoes', help="dir of the input videos")
+parser.add_argument('--video_dir', default='Regular/original/videos', help="dir of the input videos")
 parser.add_argument('--motion_dir', default='Regular/original/motions/mesh', help="dir of the input motions")
 parser.add_argument('--result_dir', default='./experiments', help="save dir")
 parser.add_argument('--concat_dir', default='concat', help="dir of the concat videos")
