@@ -75,11 +75,13 @@ pip install -r requirements.txt
 If you find this work helpful, please cite our paper:
 
 ```
-@article{zhang2022minimum,
-  title={Minimum Latency Deep Online Video Stabilization},
-  author={Zhang, Zhuofan and Liu, Zhen and Tan, Ping and Zeng, Bing and Liu, Shuaicheng},
-  journal={arXiv preprint arXiv:2212.02073},
-  year={2022}
+@InProceedings{Zhang_2023_ICCV,
+    author    = {Zhang, Zhuofan and Liu, Zhen and Tan, Ping and Zeng, Bing and Liu, Shuaicheng},
+    title     = {Minimum Latency Deep Online Video Stabilization},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {23030-23039}
 }
 ```
 
